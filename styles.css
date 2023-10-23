@@ -68,6 +68,8 @@ body {
 #profileImg {
     border-radius: 50%;
     width: 70%;
+    border: 2px solid #4f6b8c;
+    box-shadow: -2px 3px 10px black;
 }
 
 #profileImg:hover {
@@ -88,4 +90,9 @@ img {
 
 img:hover {
     transform: scale(1.2);
+}
+
+a {
+    text-decoration: none;
+    color: #cc9543;
 }
